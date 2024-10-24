@@ -4,37 +4,307 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="077b2311-96ce-4480-be6e-09b6bcff0218" name="Changes" comment="" />
+    <list default="true" id="077b2311-96ce-4480-be6e-09b6bcff0218" name="Changes" comment="Updates and Add simple variable ex example">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/functions/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/functions/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/functions/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/variables/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/variables/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/variables/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/.rustc_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.cargo-lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.fingerprint/hello-4536ab7413e70ee1/bin-hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.fingerprint/hello-4536ab7413e70ee1/bin-hello.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.fingerprint/hello-4536ab7413e70ee1/dep-bin-hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.fingerprint/hello-4536ab7413e70ee1/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.fingerprint/hello-c9e958fcb44d92cb/dep-test-bin-hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.fingerprint/hello-c9e958fcb44d92cb/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.fingerprint/hello-c9e958fcb44d92cb/test-bin-hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.fingerprint/hello-c9e958fcb44d92cb/test-bin-hello.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.fingerprint/hello-e32ca80c158e5cf1/bin-hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.fingerprint/hello-e32ca80c158e5cf1/bin-hello.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.fingerprint/hello-e32ca80c158e5cf1/dep-bin-hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/.fingerprint/hello-e32ca80c158e5cf1/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/deps/hello-4536ab7413e70ee1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/deps/hello-c9e958fcb44d92cb.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/deps/hello-e32ca80c158e5cf1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/deps/hello-e32ca80c158e5cf1.3oxq3n76l9grmlyu.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/deps/hello-e32ca80c158e5cf1.4vqvgnauwc6cv9ot.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/deps/hello-e32ca80c158e5cf1.51fv0qwe9np4v3j9.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/deps/hello-e32ca80c158e5cf1.55t2jecqx3jhk5yd.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/deps/hello-e32ca80c158e5cf1.5dh3x92upovxijfu.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/deps/hello-e32ca80c158e5cf1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/deps/hello-e32ca80c158e5cf1.dydtfb9zfzy84yq.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/deps/libhello-4536ab7413e70ee1.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/deps/libhello-c9e958fcb44d92cb.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/hello.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-2eqrdrcwcvor7/s-gscbwe9mv4-12pyjn5-5cmfx0732qztkg52rnz4zmatk/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-2eqrdrcwcvor7/s-gscbwe9mv4-12pyjn5-5cmfx0732qztkg52rnz4zmatk/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-2eqrdrcwcvor7/s-gscbwe9mv4-12pyjn5-5cmfx0732qztkg52rnz4zmatk/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-2eqrdrcwcvor7/s-gscbwe9mv4-12pyjn5.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3izr1jlfb7z5t/s-gscbwe9mv7-1djrr0u-15t02suy28d4q4bhx5u2oouoj/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3izr1jlfb7z5t/s-gscbwe9mv7-1djrr0u-15t02suy28d4q4bhx5u2oouoj/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3izr1jlfb7z5t/s-gscbwe9mv7-1djrr0u-15t02suy28d4q4bhx5u2oouoj/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3izr1jlfb7z5t/s-gscbwe9mv7-1djrr0u.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3snehl6myl9nw/s-gscbwrzs4p-scetjz-a1l8nidcoydbwlcrm9nke7mg/3oxq3n76l9grmlyu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3snehl6myl9nw/s-gscbwrzs4p-scetjz-a1l8nidcoydbwlcrm9nke7mg/4vqvgnauwc6cv9ot.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3snehl6myl9nw/s-gscbwrzs4p-scetjz-a1l8nidcoydbwlcrm9nke7mg/51fv0qwe9np4v3j9.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3snehl6myl9nw/s-gscbwrzs4p-scetjz-a1l8nidcoydbwlcrm9nke7mg/55t2jecqx3jhk5yd.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3snehl6myl9nw/s-gscbwrzs4p-scetjz-a1l8nidcoydbwlcrm9nke7mg/5dh3x92upovxijfu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3snehl6myl9nw/s-gscbwrzs4p-scetjz-a1l8nidcoydbwlcrm9nke7mg/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3snehl6myl9nw/s-gscbwrzs4p-scetjz-a1l8nidcoydbwlcrm9nke7mg/dydtfb9zfzy84yq.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3snehl6myl9nw/s-gscbwrzs4p-scetjz-a1l8nidcoydbwlcrm9nke7mg/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3snehl6myl9nw/s-gscbwrzs4p-scetjz-a1l8nidcoydbwlcrm9nke7mg/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/debug/incremental/hello-3snehl6myl9nw/s-gscbwrzs4p-scetjz.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/release/.cargo-lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/release/.fingerprint/hello-3807c607d4cdd91b/bin-hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/release/.fingerprint/hello-3807c607d4cdd91b/bin-hello.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/release/.fingerprint/hello-3807c607d4cdd91b/dep-bin-hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/release/.fingerprint/hello-3807c607d4cdd91b/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/release/deps/hello-3807c607d4cdd91b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/release/deps/hello-3807c607d4cdd91b.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/release/hello" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello/target/release/hello.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/.rustc_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.cargo-lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.fingerprint/memory_safety-3907171113a00e30/bin-memory_safety" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.fingerprint/memory_safety-3907171113a00e30/bin-memory_safety.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.fingerprint/memory_safety-3907171113a00e30/dep-bin-memory_safety" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.fingerprint/memory_safety-3907171113a00e30/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.fingerprint/memory_safety-a46c09034e0f50a3/dep-test-bin-memory_safety" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.fingerprint/memory_safety-a46c09034e0f50a3/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.fingerprint/memory_safety-a46c09034e0f50a3/test-bin-memory_safety" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.fingerprint/memory_safety-a46c09034e0f50a3/test-bin-memory_safety.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.fingerprint/memory_safety-f1cb5fefe093f8b1/bin-memory_safety" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.fingerprint/memory_safety-f1cb5fefe093f8b1/bin-memory_safety.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.fingerprint/memory_safety-f1cb5fefe093f8b1/dep-bin-memory_safety" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/.fingerprint/memory_safety-f1cb5fefe093f8b1/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/deps/libmemory_safety-a46c09034e0f50a3.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/deps/libmemory_safety-f1cb5fefe093f8b1.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/deps/memory_safety-3907171113a00e30" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/deps/memory_safety-3907171113a00e30.1jhvixltyqr1k3tm.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/deps/memory_safety-3907171113a00e30.1xu2ozq3jbqv7gl1.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/deps/memory_safety-3907171113a00e30.252kb4k1gf69y8zk.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/deps/memory_safety-3907171113a00e30.26xz1xhrezuynh72.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/deps/memory_safety-3907171113a00e30.4ekrylqjt4h3au6x.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/deps/memory_safety-3907171113a00e30.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/deps/memory_safety-3907171113a00e30.r2yazu3mz8wrv9m.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/deps/memory_safety-a46c09034e0f50a3.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/deps/memory_safety-f1cb5fefe093f8b1.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3dqjlfmlvu12r/s-h0n04z1fkc-iixr37-81vdc31j57fioffx6tmrdlold/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3dqjlfmlvu12r/s-h0n04z1fkc-iixr37-81vdc31j57fioffx6tmrdlold/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3dqjlfmlvu12r/s-h0n04z1fkc-iixr37-81vdc31j57fioffx6tmrdlold/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3dqjlfmlvu12r/s-h0n04z1fkc-iixr37.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3jr7nt6u9y2xk/s-h0n06qz5wy-rxnzos-88j1ouis0v1u335vu1gt5uqim/1jhvixltyqr1k3tm.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3jr7nt6u9y2xk/s-h0n06qz5wy-rxnzos-88j1ouis0v1u335vu1gt5uqim/1xu2ozq3jbqv7gl1.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3jr7nt6u9y2xk/s-h0n06qz5wy-rxnzos-88j1ouis0v1u335vu1gt5uqim/252kb4k1gf69y8zk.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3jr7nt6u9y2xk/s-h0n06qz5wy-rxnzos-88j1ouis0v1u335vu1gt5uqim/26xz1xhrezuynh72.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3jr7nt6u9y2xk/s-h0n06qz5wy-rxnzos-88j1ouis0v1u335vu1gt5uqim/4ekrylqjt4h3au6x.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3jr7nt6u9y2xk/s-h0n06qz5wy-rxnzos-88j1ouis0v1u335vu1gt5uqim/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3jr7nt6u9y2xk/s-h0n06qz5wy-rxnzos-88j1ouis0v1u335vu1gt5uqim/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3jr7nt6u9y2xk/s-h0n06qz5wy-rxnzos-88j1ouis0v1u335vu1gt5uqim/r2yazu3mz8wrv9m.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3jr7nt6u9y2xk/s-h0n06qz5wy-rxnzos-88j1ouis0v1u335vu1gt5uqim/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3jr7nt6u9y2xk/s-h0n06qz5wy-rxnzos.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3u45kgijjr5uw/s-h0n04z1fkc-q5plrq-6lyw321ilurqos4j0kld9ym4a/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3u45kgijjr5uw/s-h0n04z1fkc-q5plrq-6lyw321ilurqos4j0kld9ym4a/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3u45kgijjr5uw/s-h0n04z1fkc-q5plrq-6lyw321ilurqos4j0kld9ym4a/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/incremental/memory_safety-3u45kgijjr5uw/s-h0n04z1fkc-q5plrq.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/memory_safety" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/memory_safety/target/debug/memory_safety.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/.rustc_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.cargo-lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.fingerprint/scope-2a0962bb1abeee1a/bin-scope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.fingerprint/scope-2a0962bb1abeee1a/bin-scope.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.fingerprint/scope-2a0962bb1abeee1a/dep-bin-scope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.fingerprint/scope-2a0962bb1abeee1a/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.fingerprint/scope-b8a7f8967650a373/dep-test-bin-scope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.fingerprint/scope-b8a7f8967650a373/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.fingerprint/scope-b8a7f8967650a373/test-bin-scope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.fingerprint/scope-b8a7f8967650a373/test-bin-scope.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.fingerprint/scope-f30dd1e2ad7535b4/bin-scope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.fingerprint/scope-f30dd1e2ad7535b4/bin-scope.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.fingerprint/scope-f30dd1e2ad7535b4/dep-bin-scope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/.fingerprint/scope-f30dd1e2ad7535b4/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/deps/libscope-b8a7f8967650a373.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/deps/libscope-f30dd1e2ad7535b4.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/deps/scope-2a0962bb1abeee1a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/deps/scope-2a0962bb1abeee1a.1gxbziblxtb2bvrg.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/deps/scope-2a0962bb1abeee1a.2emonhg049zbd0u4.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/deps/scope-2a0962bb1abeee1a.4bw9wc0s8gzjxg8t.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/deps/scope-2a0962bb1abeee1a.4l3sr3g1f1kvella.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/deps/scope-2a0962bb1abeee1a.4utouk0l0zsnhgd5.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/deps/scope-2a0962bb1abeee1a.7mtalqxkbxean7i.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/deps/scope-2a0962bb1abeee1a.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/deps/scope-b8a7f8967650a373.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/deps/scope-f30dd1e2ad7535b4.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-20r0vj07jsjeu/s-gsdazozyu6-c1kj4i-1gytz6pqgj14c0ovkt59031mt/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-20r0vj07jsjeu/s-gsdazozyu6-c1kj4i-1gytz6pqgj14c0ovkt59031mt/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-20r0vj07jsjeu/s-gsdazozyu6-c1kj4i-1gytz6pqgj14c0ovkt59031mt/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-20r0vj07jsjeu/s-gsdazozyu6-c1kj4i.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-21xhqenmu8pjg/s-gsdb03tlez-2iktf6-ajieb3d40s26tdlf9fr1qc2wv/1gxbziblxtb2bvrg.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-21xhqenmu8pjg/s-gsdb03tlez-2iktf6-ajieb3d40s26tdlf9fr1qc2wv/2emonhg049zbd0u4.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-21xhqenmu8pjg/s-gsdb03tlez-2iktf6-ajieb3d40s26tdlf9fr1qc2wv/4bw9wc0s8gzjxg8t.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-21xhqenmu8pjg/s-gsdb03tlez-2iktf6-ajieb3d40s26tdlf9fr1qc2wv/4l3sr3g1f1kvella.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-21xhqenmu8pjg/s-gsdb03tlez-2iktf6-ajieb3d40s26tdlf9fr1qc2wv/4utouk0l0zsnhgd5.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-21xhqenmu8pjg/s-gsdb03tlez-2iktf6-ajieb3d40s26tdlf9fr1qc2wv/7mtalqxkbxean7i.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-21xhqenmu8pjg/s-gsdb03tlez-2iktf6-ajieb3d40s26tdlf9fr1qc2wv/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-21xhqenmu8pjg/s-gsdb03tlez-2iktf6-ajieb3d40s26tdlf9fr1qc2wv/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-21xhqenmu8pjg/s-gsdb03tlez-2iktf6-ajieb3d40s26tdlf9fr1qc2wv/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-21xhqenmu8pjg/s-gsdb03tlez-2iktf6.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-2t6nq1t4hapme/s-gsdazozyue-fkyc2x-bzgy0gercnsfl78t4f45auoip/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-2t6nq1t4hapme/s-gsdazozyue-fkyc2x-bzgy0gercnsfl78t4f45auoip/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-2t6nq1t4hapme/s-gsdazozyue-fkyc2x-bzgy0gercnsfl78t4f45auoip/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/incremental/scope-2t6nq1t4hapme/s-gsdazozyue-fkyc2x.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/scope" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope/target/debug/scope.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/Cargo.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/src/main.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/.rustc_info.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/CACHEDIR.TAG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.cargo-lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-1a30770da882d5b0/bin-variables" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-1a30770da882d5b0/bin-variables.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-1a30770da882d5b0/dep-bin-variables" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-1a30770da882d5b0/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-1a30770da882d5b0/output-bin-variables" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-abf792188a07d8ff/bin-variables" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-abf792188a07d8ff/bin-variables.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-abf792188a07d8ff/dep-bin-variables" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-abf792188a07d8ff/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-dc21a48e054730c7/dep-test-bin-variables" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-dc21a48e054730c7/invoked.timestamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-dc21a48e054730c7/test-bin-variables" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/.fingerprint/variables-dc21a48e054730c7/test-bin-variables.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/deps/libvariables-abf792188a07d8ff.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/deps/libvariables-dc21a48e054730c7.rmeta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/deps/variables-1a30770da882d5b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/deps/variables-1a30770da882d5b0.1w2g4svvnm5jxztf.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/deps/variables-1a30770da882d5b0.3hj9af5sru7t7v45.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/deps/variables-1a30770da882d5b0.3hjklth9gp52q4ec.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/deps/variables-1a30770da882d5b0.4t80sqxa97hjua7l.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/deps/variables-1a30770da882d5b0.52mls87qg75crvdf.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/deps/variables-1a30770da882d5b0.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/deps/variables-1a30770da882d5b0.xjwde1dto8d5db7.rcgu.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/deps/variables-abf792188a07d8ff.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/deps/variables-dc21a48e054730c7.d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2irpamnk9a4tj/s-gscbz2qyso-1onlkde-2u211jdaz5ennpnragagtbsh/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2irpamnk9a4tj/s-gscbz2qyso-1onlkde-2u211jdaz5ennpnragagtbsh/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2irpamnk9a4tj/s-gscbz2qyso-1onlkde-2u211jdaz5ennpnragagtbsh/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2irpamnk9a4tj/s-gscbz2qyso-1onlkde.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2nzgxob1h4j0c/s-gsdad5zhm0-dcgw6x-8qtuazwqlv0uacxjsy2kdk07u/1w2g4svvnm5jxztf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2nzgxob1h4j0c/s-gsdad5zhm0-dcgw6x-8qtuazwqlv0uacxjsy2kdk07u/3hj9af5sru7t7v45.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2nzgxob1h4j0c/s-gsdad5zhm0-dcgw6x-8qtuazwqlv0uacxjsy2kdk07u/4t80sqxa97hjua7l.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2nzgxob1h4j0c/s-gsdad5zhm0-dcgw6x-8qtuazwqlv0uacxjsy2kdk07u/52mls87qg75crvdf.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2nzgxob1h4j0c/s-gsdad5zhm0-dcgw6x-8qtuazwqlv0uacxjsy2kdk07u/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2nzgxob1h4j0c/s-gsdad5zhm0-dcgw6x-8qtuazwqlv0uacxjsy2kdk07u/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2nzgxob1h4j0c/s-gsdad5zhm0-dcgw6x-8qtuazwqlv0uacxjsy2kdk07u/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2nzgxob1h4j0c/s-gsdad5zhm0-dcgw6x-8qtuazwqlv0uacxjsy2kdk07u/xjwde1dto8d5db7.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-2nzgxob1h4j0c/s-gsdad5zhm0-dcgw6x.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-344blkta4h6nv/s-gscbz2qysl-z9xw3e-8hy7nukws9od11zql4njv96yz/dep-graph.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-344blkta4h6nv/s-gscbz2qysl-z9xw3e-8hy7nukws9od11zql4njv96yz/query-cache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-344blkta4h6nv/s-gscbz2qysl-z9xw3e-8hy7nukws9od11zql4njv96yz/work-products.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/incremental/variables-344blkta4h6nv/s-gscbz2qysl-z9xw3e.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/variables" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables/target/debug/variables.d" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RsBuildProfile:dev" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LoloREIN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LoloREIN/Rust-Notes.git&quot;,
+    &quot;accountId&quot;: &quot;943b65c1-9547-4bcf-b2d5-9f8c1c687ffb&quot;
+  }
+}</component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="tx0qjrvy" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2n7Qcy32jceA9aw4zvRJwduq7W9" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.rust.reset.selective.auto.import": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/lorenzoreinoso/Documents/Rust Notes",
-    "nodejs_package_manager_path": "npm",
-    "org.rust.first.attach.projects": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.rust.reset.selective.auto.import&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lorenzoreinoso/Documents/Rust Notes&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
+    &quot;org.rust.first.attach.projects&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/crash_rust/examples" />
+      <recent name="$PROJECT_DIR$/crash_rust/examples/simple_variable_ex" />
+      <recent name="$PROJECT_DIR$/crash_rust/src" />
+      <recent name="$PROJECT_DIR$/crash_rust/examples/main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
+      <option name="buildProfileId" value="dev" />
+      <option name="command" value="run" />
+      <envs />
+      <option name="emulateTerminal" value="true" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="buildTarget" value="REMOTE" />
+      <option name="backtrace" value="SHORT" />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
@@ -47,10 +317,27 @@
       <option name="presentableId" value="Default" />
       <updated>1728321717791</updated>
       <workItem from="1728321718857" duration="18000" />
+      <workItem from="1729030668680" duration="12000" />
+      <workItem from="1729104373535" duration="3356000" />
+      <workItem from="1729204288542" duration="10000" />
+      <workItem from="1729274813012" duration="5288000" />
     </task>
+    <task id="LOCAL-00001" summary="Updates and Add simple variable ex example">
+      <option name="closed" value="true" />
+      <created>1729106468382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729106468382</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updates and Add simple variable ex example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updates and Add simple variable ex example" />
   </component>
 </project>
